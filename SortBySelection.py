@@ -19,7 +19,7 @@ class SortBySelection:
 
 
 if __name__ == "__main__":
-    sortBySelection = SortBySelection()
-    myItems = [5, 3, 16, 6, 2, 10, 8]
+    sort_by_selection = SortBySelection()
+    my_items = [5, 3, 16, 6, 2, 10, 8]
 
-    print("Sorted array: " + str(sortBySelection.order(myItems)))
+    print("Sorted array: " + str(sort_by_selection.order(my_items)))

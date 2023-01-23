@@ -9,6 +9,6 @@ def quickSort(items):
 
 
 if __name__ == "__main__":
-    myItems = [29, 4, 23, 1]
+    my_items = [29, 4, 23, 1]
 
-    print("QuickSort: " + str(quickSort(myItems)))
+    print("QuickSort: " + str(quickSort(my_items)))

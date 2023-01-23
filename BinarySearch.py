@@ -17,9 +17,9 @@ class BinarySearch:
 
 
 if __name__ == "__main__":
-    binarySearch = BinarySearch()
-    myItems = [1, 3, 5, 7, 9]
+    binary_search = BinarySearch()
+    my_items = [1, 3, 5, 7, 9]
 
-    print("Position of '3' value: " + str(binarySearch.search(myItems, 3)))
-    print("Position of '-1' value: " + str(binarySearch.search(myItems, -1)))
-    print("Position of '9' value: " + str(binarySearch.search(myItems, 9)))
+    print("Position of '3' value: " + str(binary_search.search(my_items, 3)))
+    print("Position of '-1' value: " + str(binary_search.search(my_items, -1)))
+    print("Position of '9' value: " + str(binary_search.search(my_items, 9)))

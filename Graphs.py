@@ -23,7 +23,7 @@ def wantedPerson(name):
 
 
 if __name__ == "__main__":
-    myGraph = {
+    my_graph = {
         "you": ["bill", "jobs", "musk"],
         "bill": ["ballmer", "wozniak"],
         "jobs": ["wozniak"],
@@ -34,4 +34,4 @@ if __name__ == "__main__":
         "dorsey": []
     }
 
-    print("Breadth search in our graph: " + str(breadthSearch(myGraph, "you")))
+    print("Breadth search in our graph: " + str(breadthSearch(my_graph, "you")))
